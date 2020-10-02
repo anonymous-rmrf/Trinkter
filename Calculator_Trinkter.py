@@ -15,6 +15,7 @@ def clickbut(number):   #lambda:clickbut(1)
      operator=operator+str(number)
      textin.set(operator)
 
+     
 def equlbut():
      global operator
      add=str(eval(operator))
