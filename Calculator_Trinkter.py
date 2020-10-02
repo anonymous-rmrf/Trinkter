@@ -15,6 +15,7 @@ def clickbut(number):   #lambda:clickbut(1)
      operator=operator+str(number)
      textin.set(operator)
 
+     
 def equlbut():
      global operator
      add=str(eval(operator))
@@ -40,7 +41,7 @@ def clrbut():
      textin.set('')
 
      
-metext=Entry(me,font=("Times New Roman",12,'bold'),textvar=textin,width=25,bd=5,bg='Powder Blue')
+metext=Entry(me,font=(" Times New Roman",12,'bold'),textvar=textin,width=25,bd=5,bg='Powder Blue')
 metext.pack()
 
 but1=Button(me,padx=14,pady=14,bd=4,bg='white',command=lambda:clickbut(1),text="1",font=("Times New Roman",16,'bold'))
